@@ -5,28 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mezcales</title>
+    <link rel="stylesheet" href="../styles/style.css">
 </head>
 
 <body>
     <header>
-        <h1>Mezcales de Sabores </h1>
-        <nav>
-            <ul>
-                <li> <a href="#inicio"></a></li>
-                <li><a href="#productos"></a></li>
-                <li><a href="#contacto"></a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <h1>Mezcales de Sabores </h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="#contacto">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="inicio">
-        <h2>Don Jarana</h2>
+    <section id="inicio" class="hero">
+       <div class="container">
+         <h2>Don Jarana</h2>
         <p>La Tierra del Buen Mezcal</p>
+        <a href="#productos" class="btn">ver productos</a>
+       </div>
     </section>
 
     <section id="productos">
-        <h2>Chingatelo que es Tuyo</h2>
+      <div class="container">
+          <h2>Chingatelo que es Tuyo</h2>
         <p>La Mejor Variedad de Mezcal</p>
+        <a href="#contacto" class="btn">ver contacto</a>
+      </div>
     </section>
 
     <section id="contacto"></section>
